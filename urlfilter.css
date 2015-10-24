@@ -1,0 +1,476 @@
+/*mail:censureblock@gmail.com*/
+@charset 'utf-8';
+@namespace url(http://www.w3.org/1999/xhtml);
+/*Counters*/img[alt="Rambler's Top100"],
+img[alt='Рейтинг@Mail.ru'],
+img[alt='Яндекс.Метрика'],
+img[alt='bigmir)net TOP 100'],
+div[id='counters'],
+img[width='88'][height='31'],
+img[width='1'][height='1'][border='0'],
+a[href^='/click/'],
+a[href^='http://ad.rambler.ru/'],
+a[href^='http://top.mail.ru/jump?'],
+a[href^='http://top.list.ru/jump?'],
+a[href$='www.liveinternet.ru/click'],
+img[alt='LiveInternet'],
+img[alt='реклама'],
+/*размеры баннеров*/embed[width='120'][height='600'],
+embed[width='240'][height='400'],
+embed[width='400'][height='80'],
+embed[width='468'][height='60'],
+embed[width='600'][height='160'],
+embed[width='728'][height='90'],
+embed[width='1000'][height='150'],
+embed[width='1024'][height='105'],
+object[width='125'][height='200'],
+object[width='400'][height='90'],
+object[width='468'][height='60'],
+object[width='220'][height='404'],
+object[width='240'][height='200'],
+object[width='242'][height='398'],
+object[width='240'][height='400'],
+object[width='240'][height='600'],
+object[width='310'][height='620'],
+object[width='680'][height='90'],
+object[width='680'][height='240'],
+object[width='728'][height='120'],
+object[width='720'][height='90'],
+object[width='728'][height='90'],
+object[width='160'][height='600'],
+object[width='100%'][height='60'],
+object[width='100%'][height='90'],
+object[width='100%'][height='150'],
+object[width='1024'][height='150'],
+iframe[width='160'][height='600'],
+iframe[width='200'][height='400'],
+iframe[width='240'][height='80'],
+iframe[width='240'][height='300'],
+iframe[width*='240'][height*='400'],
+iframe[width='240'][height='401'],
+iframe[width='240'][height='420'],
+/*iframe[width*='240'],http://3dnews.ru/753313*/
+iframe[style*='width:240px;'],
+iframe[width='468'][height='60'],
+iframe[width='600'][height='90'],
+iframe[width='600px'][height='90px'],
+iframe[width='728'][height='90'],
+iframe[width='728'][height='245'],
+iframe[width='728px'][height='90px'],
+iframe[width='760px'][height='60px'],
+iframe[width='100%'][height='90px'],
+iframe[width='960'][height='90'],
+img[width='728'][height='90'],
+img[width='468'][height='60'],
+img[width='160'][height='600'],
+img[width='120'][height='600'],
+img[width='240'][height='400'],
+img[width='240px'][height='400px'],
+img[width='1000'][height='150'],
+div[style='width: 240px; height: 600px;'],
+div[style='width:240px;height:560px;'],
+div[style='width:240px;height:400px;'],
+div[style='width:240px; height:400px;'],
+div[style='width: 240px; height: 400px;'],
+div[style='width: 240px; height: 200px;'],
+div[style='width:240px;height:160px;'],
+div[style='width:100%;height:90px;'],
+div[style^='width:160px; height:600px;'],
+div[style^='width: 728px; height: 90px;'],
+div[style^='height: 90px; width: 728px;'],
+div[style^='width: 176px; height: 90px;'],
+/*общие правила*/div[id^='bn_'],
+div[id^='banner'],
+object[id^='banner'],
+div.ban,
+div.banner,
+div.banner1,
+div.left_banner,
+div#topbanners,
+div#top-banner-container,
+div#headerbanner,
+div#bottomBanners,
+div#rightBanner240,
+div.ban728x90,
+div#sibAd_240x400,
+div.b-240,
+div[class^='baner'],
+div[class^='banner_'],
+div[id^='banner_'],
+div[title^='banner'],
+div[title$='banner'],
+div[class$='banner'],
+div[class$='banners'],
+div[class*='-banner-'],
+div[class^='banner-place-'],
+div[id*='-banner-'],
+section[class*='-banner-'],
+object[id^='Banner'],
+div[id*='_banner_'],
+div.bannerss,
+div.bnr,
+div.banner-box,
+div.tbinner10,
+div#top_ban,
+div.topBan,
+div#top_banner,
+div#footer_banner,
+div#top_superbanner,
+object[id$='Banner'],
+img[alt*='баннер'],
+img[src*='/banner/'],
+td[class*='maBanner'],
+td[class$='-banner'],
+table.banner-space,
+table#bottom-banners,
+table#banner_jv,
+aside.b-banner,
+div.ad-div,
+div.ad-rle,
+div.ad,
+div.ad_yad,
+div#ad,
+div#ad_box_inner,
+div#sibAd_topline,
+div[id*='-ad-'],
+div[id^='ad-'],
+div[class$='-ad'],
+/*div.top-ad,div.partial-ad,*/
+div[class$='ad_block'],
+div.a_block,
+div.blockBox>div.adBox+div.noticeBox,
+#adv,
+[id^='adv-'],
+div#adv2,
+div#adv3,
+td[id^='advtda'],
+[id$='_adv'],
+div[class$='_adv'],
+div[id$='_ad'],
+div[id$='ADV'],
+div.adv,
+div.advtBlock,
+div[class^='right_adv'],
+div.rightAdv,
+div.widget_ad_unit,
+div.b-ad_200,
+div.b-adv,
+div.b-top-adv,
+div.rb-adv,
+ul.spec-adv,
+div.adv-bnr-common,
+div#theAd,
+div[id$='-ads'],
+div.content-ads,
+div[class^='ads'],
+div.type_ads,
+iframe#google_ads_frame1,
+iframe[src*='_ads_'],
+div[id*='_ads_'],
+div[class*='_ads_'],
+div.b-adsuniversal-wrap,
+div.textads,
+div#textadv,
+section.ads,
+div.ads,
+table.ads,
+ul.vads,
+div[id^='mainads'],
+iframe[id^='ads_'],
+/*div[id^='advert'],*/
+/*irr.ru не надо div id=advertCreate */
+/*.advert,#advertisingLink,#Advertisement,*/
+div[id$='advert'],
+div[class^='advert-'],
+section[id*='-advert-'],
+div.advert,
+div.advertBlock,
+table.advert,
+div.js-advert,
+div.advertisement,
+div.b-advertising,
+div.advertising,
+div.main-advertising,
+div.advertbox,
+div.advertis,
+div#adzerk1,
+table.advertTop,
+table.advertTop1,
+iframe#adv_kod_frame,
+div.chitikaAdContainer,
+div[id^='adzone'],
+td[id^='adzone'],
+div#tads,
+div[id^='smi2adblock_'],
+div[id^='sponsor'],
+div[id*='-teasers-'],
+div[id*='_teaser_'],
+div[id^='teaser'],
+div[id^='tieser'],
+div[id*='Teaser'],
+div[class^='q_teaser'],
+div#soomracktizer,
+div.tizer,
+div[id^='right_ban'],
+div[id^='left_ban'],
+div#brandtop,
+div#file_branding_wrapper,
+div.branding_top,
+div.branding_left,
+div.branding_right,
+div.b-branding__top,
+div.b-branding__bottom,
+div.b-branding__left,
+div.b-branding__right,
+div.b-branding__flash-wrap,
+div.pb_top_img,
+div.pb_left_banner,
+div.pb_right_banner,
+div#brand_cx,
+div[class^='ban468'],
+div[id^='MarketGid'],
+div.promoted-videos,
+div[class*='reklam'],
+div[class*='reclam'],
+div[id*='reklam'],
+div[id*='reclam'],
+section.rekl,
+/*Баннерные сети*/div[id^='radeant'],
+div[id^='DIV_DA_'],
+div[id^='DIV_NNN_'],
+div[id^='DIV_RNN_'],
+div[id^='LNNB_'],
+div[id^='trafmag_'],
+div[id^='b_tz_'],
+div.SC_TBlock,
+/*текстовая*/div#nlxcode,
+div#JobInformer,
+/*popup*/div#Popunder,
+div.no-adb,
+div.km_ref_adv_popup,
+/*casino*/div.casino,
+a[href^="https://www.joycasino.com/?partner="],
+a[href^="https://joycasino.com/?partner="],
+/*yandex*/div[class$='_type_highlighted'],
+div.b-page-layout__column-proxy div.g-gap-vertical[class*='_type_'],
+div.b-page-layout__column:last-of-type>div:not(.i-images-lists)>div>div:not(.b-parallel-search),
+div.b-yadirect,
+div.b-direct,
+div.b-advertizing-and-wizards>div>div[class$='__line'],
+div.b-noncontext-banner,
+li.yad-line,
+div.serp-adv,
+div.serp-adv__counter,
+div.serp-adv__title-text,
+div.serp-list div.serp-block:nth-of-type(4),
+div.b-tv-direct,
+div[id^='yandex_ad_'],
+div.promo-intruder,
+/*mail.ru*/div.layout__centercol__wrap>div>a.text-banner,
+div.block-adcntxt,
+div.torg_mail_ru__200x300,
+div.header__branding,
+div.footer__branding,
+div.b-slot_banner,
+div#portal__banner,
+div.b-datalist__head__item_rb,
+div.b-rb.direct.direct_top,
+td.direct-spc+td.direct,
+li.menu__item_rb,
+div.informers noindex,
+aside.sidebar-right noindex,
+/*rambler.ru*/div.b-worm,
+div.mixednews__aside,
+/*google*/div#mtads,
+div#bottomads,
+div.nH>div.mq,
+div.nH>div.PS,
+div.nH>div.u5,
+div.nH>div.AT,
+div.block-informer-news,
+div#AdvertisingTopLine,
+div[class^='pgBan'],
+div#rhs_block,
+div#tvcap>div.commercial-unit,
+/*youtube*/div#premium-yva,
+div#video-masthead,
+/*rutracker.org*/div#sidebar1_wrap>div#ddest-bn-1,
+div#sidebar1_wrap>div#idx-3,
+div#sidebar1_wrap>div.tCenter,
+embed[width='200'][height='300'],
+iframe[width='200'][height='300'],
+div#bn-bot-wrap,
+/*ixbt.com*/table.top_ad2,
+object[width='600'][height='90'],
+img[width='600'][height='90'],
+object[width='600'][height='300'],
+div.clickable_zone,
+/*OpenNET.ru*/a[href*='lanbilling.ru'],
+table#ibm_adv,
+img[width='242'][height='402'],
+img[width='279'][height='40'],
+/*linux.org.ru*/div#mainpage>aside#boxlets>div:first-child,
+div#interpage-adv,
+/*job.ru*/div[class^='showcaseNew'],
+/*overclockers.ru*/div#adw,
+div.rastyazka,
+div.rastyazka_v,
+div.rastyazka_regard,
+table.decoblock,
+div.decoblock-content.compress,
+div.decoblock-content>div.info,
+td#leftplace>object,
+div#footer div.decoblock-content,
+table.needblock,
+div#header>div#uhi,
+body.ltr>center>a,
+iframe#a75c1e43,
+/*fileplaneta.com*/span#ta8c,
+/*irr.ru*/div.wrBanerPlace,
+/*itmages.ru*/div#modal-noAds,
+/*div.modal-backdrop,conflict with bspb.ru*/
+/*ngs.ru*/div.rclheh,
+div.joagokx,
+div.tcitly,
+div.realty-informer-small,
+/*pravda.ru*/div[id^='div_sf_'],
+/*dota2.ru*/div.hadv1-block,
+div.vadv1-block,
+/*yarportal.ru*/td[width='480'][height='60'],
+td[width='240'][height='60'],
+object[width='240'][height='100'],
+object[width='480'][height='100'],
+div#ipbwrapper>center>table#table1[width="100%"],
+/*nowfilms.ru*/div#b_bl,
+/*nnm-club.me*/ins.adsbygoogle,
+div#mb_top_space,
+div#ewnjnlbs_div,
+div#pewnjnlbs_div,
+/*ph4.ru*/table.shad,
+div#snippetContainer
+{display:none !important}
+@-moz-document domain(sputnik.ru){
+div.b-cover__box>div.b-level
+{display:none !important}}
+@-moz-document domain(samlab.ws){
+div.box.main>:first-child
+{display:none !important}}
+@-moz-document domain(nnm.me){
+body>a:first-child[target="_blank"]
+{display:none !important}}
+@-moz-document domain(unionpeer.org){
+div#body_container>noindex
+{display:none !important}}
+@-moz-document domain(free-torrents.org){
+noindex
+{display:none !important}}
+@-moz-document domain(fastpic.ru){
+div#brnd,
+div#left[style*='z-index: 2147483647'],
+div#top[style*='width: 728px; height: 200px'],
+div#right[style*='width: 310px; height: 470px']
+{display:none !important}}
+@-moz-document domain(habrahabr.ru){
+body>a,
+div.post_inner_banner
+{display:none !important}}
+@-moz-document domain(4pda.ru){
+img[width='240'][height='400']
+{display:block !important}}
+@-moz-document domain(forum.oszone.net){
+table.alt1 td.alt1[align="center"],
+table.alt1 td.alt2[align="center"]
+{display:none !important}}
+@-moz-document domain(new-rutor.org){
+body
+{padding:0 !important}}
+@-moz-document domain(free-codecs.com){
+div#bannerTop
+{display:block !important}}
+@-moz-document domain(youtube.com){
+div.watch-branded-banner,
+div.player-branded-banner
+{display:block !important}}
+@-moz-document domain(rozetka.com.ua){
+div#head_banner_container
+{display:block !important}}
+@-moz-document domain(gamexp.ru){
+div.game_banner
+{display:block !important}}
+@-moz-document domain(rbcdaily.ru){
+div.b-brending-banner
+{display:block !important}}
+@-moz-document domain(rzd.ru){
+body.indx .banner
+{display:block !important}}
+@-moz-document domain(play.google.com){
+div[class^='doc-banner-']
+{display:block !important}}
+@-moz-document domain(mail.google.com){
+div.ads
+{display:block !important}}
+@-moz-document domain(go.mail.ru){
+[id^='adv-']
+{display:block !important}}
+@-moz-document domain(search.qip.ru){
+div.adv
+{display:block !important}}
+@-moz-document domain(megaline-films.kz){
+div.backbanner
+{display:block !important}}
+@-moz-document domain(oo.by){
+div.ad
+{display:block !important}}
+@-moz-document domain(mediafire.com){
+div.error_topbanner
+{display:block !important}}
+@-moz-document domain(lib.rus.ec){
+div.lb-pay__banner
+{display:block !important}}
+@-moz-document domain(19rus.info){
+div.fon-banner,
+div.fon-banner-raster
+{display:block !important}}
+@-moz-document domain(ixbt.com){
+img[src*='/banner/']
+{display:block !important}
+body{padding-top:0px !important;
+background:none !important;}}
+@-moz-document domain(apps.samsung.com){
+img[width='240'][height='400']
+{display:block !important}}
+@-moz-document domain(wildberries.ru){
+div.banners
+{display:block !important}}
+@-moz-document domain(forum.pac-rom.com){
+div.banner_ads
+{display:block !important}}
+@-moz-document domain(vse.kz){
+div#banner_wrapper,
+div#banner_highlight
+{display:block !important}}
+@-moz-document domain(autodesk.com){
+div.adsk-textimage
+{display:block !important}}
+@-moz-document domain(autodesk.ru){
+div[id^='adsk-'],
+div[class^='adsk-']
+{display:block !important}}
+@-moz-document domain(irr.ru){
+div[class^='advert']
+{display:block !important}}
+@-moz-document domain(tvzavr.ru){
+div.with-banner
+{display:block !important}}
+@-moz-document domain(ocz.com){
+div.banner
+{display:block !important}}
+@-moz-document domain(sandisk.com){
+div#banner
+{display:block !important}}
+@-moz-document domain(huawei-games.ru){
+div.reklama
+{display:block !important}}
+@-moz-document domain(3dmgame.com){
+div#banner
+{display:block !important}}
