@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
+<app appid='kkknilfcjjdbbglecpicngpnicjhblkk'>
+<updatecheck codebase='https://raw.githubusercontent.com/temnikov/urlfilter/master/urlfilter_2.crx' version='2.21'/>
+</app>
+</gupdate>
