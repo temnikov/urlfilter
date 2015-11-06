@@ -371,8 +371,13 @@ div#top[style*='width: 728px; height: 200px'],
 div#right[style*='width: 310px; height: 470px']
 {display:none !important}}
 @-moz-document domain(habrahabr.ru){
-body>a,
-div.post_inner_banner
+div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
+{display:none !important}}
+@-moz-document domain(geektimes.ru){
+div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
+{display:none !important}}
+@-moz-document domain(megamozg.ru){
+div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
 {display:none !important}}
 @-moz-document domain(4pda.ru){
 img[width='240'][height='400']
