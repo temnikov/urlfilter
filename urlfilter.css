@@ -479,3 +479,6 @@ div.reklama
 @-moz-document domain(3dmgame.com){
 div#banner
 {display:block !important}}
+@-moz-document domain(spbitschool.ru){
+div.banner-style11
+{display:block !important}}
