@@ -359,6 +359,9 @@ div.box.main>:first-child
 @-moz-document domain(nnm.me){
 body>a:first-child[target="_blank"]
 {display:none !important}}
+@-moz-document domain(tfile.me){
+body{padding-top:0px !important;
+background:none !important;}}
 @-moz-document domain(unionpeer.org){
 div#body_container>noindex
 {display:none !important}}
