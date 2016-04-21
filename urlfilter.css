@@ -350,7 +350,8 @@ div#mb_top_space,
 div#ewnjnlbs_div,
 div#pewnjnlbs_div,
 /*ph4.ru*/table.shad,
-div#snippetContainer
+div#snippetContainer,
+iframe.amcu-frame-appended
 {display:none !important}
 @-moz-document domain(sputnik.ru){
 div.b-cover__box>div.b-level
@@ -384,6 +385,12 @@ div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
 {display:none !important}}
 @-moz-document domain(megamozg.ru){
 div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
+{display:none !important}}
+@-moz-document domain(joyreactor.cc){
+div#pageinner>div#sidebar:nth-child(2),
+div#pageinner>div#sidebar:nth-child(4),
+div#pageinner>div#sidebar:nth-child(6),
+div.post_content[data-adblock]>div:first-child>table
 {display:none !important}}
 @-moz-document domain(4pda.ru){
 img[width='240'][height='400']
