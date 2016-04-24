@@ -297,9 +297,7 @@ div#rhs_block,
 div#tvcap>div.commercial-unit,
 /*youtube*/div#premium-yva,
 div#video-masthead,
-/*rutracker.org*/div#sidebar1_wrap>div#ddest-bn-1,
-div#sidebar1_wrap>div#idx-3,
-div#sidebar1_wrap>div.tCenter,
+/*rutracker.cr*/div.bn-idx,
 embed[width='200'][height='300'],
 iframe[width='200'][height='300'],
 div#bn-bot-wrap,
@@ -386,10 +384,7 @@ div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
 div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
 {display:none !important}}
 @-moz-document domain(joyreactor.cc){
-div#pageinner>div#sidebar:nth-child(2),
-div#pageinner>div#sidebar:nth-child(4),
-div#pageinner>div#sidebar:nth-child(6),
-div.post_content[data-adblock]>div:first-child>table
+div#contentinner>div>div[id^='vJ']
 {display:none !important}}
 @-moz-document domain(4pda.ru){
 img[width='240'][height='400']
