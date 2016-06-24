@@ -494,3 +494,7 @@ div.banner-style11
 @-moz-document domain(sf-express.com){
 div#banner,div.banner
 {display:block !important}}
+@-moz-document domain(wordpress.org){
+div.plugin-head-with-banner,
+div.with-banner
+{display:block !important}}
