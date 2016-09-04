@@ -386,7 +386,10 @@ div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
 div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
 {display:none !important}}
 @-moz-document domain(joyreactor.cc){
-div#contentinner>div>div[id^='vJ']
+div#content
+{background-color:transparent !important}
+div#SwfStore_jr_0,
+div#content>div:not(#contentinner)
 {display:none !important}}
 @-moz-document domain(4pda.ru){
 img[width='240'][height='400']
