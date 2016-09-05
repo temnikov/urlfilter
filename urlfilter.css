@@ -390,7 +390,9 @@ div#content
 {background-color:transparent !important}
 div#SwfStore_jr_0,
 div#content>div:not(#contentinner)
-{display:none !important}}
+{display:none !important}
+div[id^='ad-']
+{display:block !important}}
 @-moz-document domain(4pda.ru){
 img[width='240'][height='400']
 {display:block !important}}
