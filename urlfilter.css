@@ -340,7 +340,7 @@ div#snippetContainer
 div.b-cover__box>div.b-level
 {display:none !important}}
 @-moz-document domain(samlab.ws){
-div.box.main>:first-child
+div.box.main>div
 {display:none !important}}
 @-moz-document domain(nnm.me){
 body>a:first-child[target="_blank"]
