@@ -15,6 +15,7 @@ a[href$='www.liveinternet.ru/click'],
 img[alt='LiveInternet'],
 img[alt='реклама'],
 /*размеры баннеров*/embed[width='120'][height='600'],
+embed[width='200'][height='300'],
 embed[width='240'][height='400'],
 embed[width='400'][height='80'],
 embed[width='468'][height='60'],
@@ -26,11 +27,15 @@ object[width='125'][height='200'],
 object[width='400'][height='90'],
 object[width='468'][height='60'],
 object[width='220'][height='404'],
+object[width='240'][height='100'],
 object[width='240'][height='200'],
 object[width='242'][height='398'],
 object[width='240'][height='400'],
 object[width='240'][height='600'],
 object[width='310'][height='620'],
+object[width='480'][height='100'],
+object[width='600'][height='90'],
+object[width='600'][height='300'],
 object[width='680'][height='90'],
 object[width='680'][height='240'],
 object[width='728'][height='120'],
@@ -42,13 +47,13 @@ object[width='100%'][height='90'],
 object[width='100%'][height='150'],
 object[width='1024'][height='150'],
 iframe[width='160'][height='600'],
+iframe[width='200'][height='300'],
 iframe[width='200'][height='400'],
 iframe[width='240'][height='80'],
 iframe[width='240'][height='300'],
 iframe[width*='240'][height*='400'],
 iframe[width='240'][height='401'],
 iframe[width='240'][height='420'],
-/*iframe[width*='240'],http://3dnews.ru/753313*/
 iframe[style*='width:240px;'],
 iframe[width='468'][height='60'],
 iframe[width='600'][height='90'],
@@ -65,6 +70,7 @@ img[width='160'][height='600'],
 img[width='120'][height='600'],
 img[width='240'][height='400'],
 img[width='240px'][height='400px'],
+img[width='600'][height='90'],
 img[width='1000'][height='150'],
 div[style='width: 240px; height: 600px;'],
 div[style='width:240px;height:560px;'],
@@ -78,6 +84,8 @@ div[style^='width:160px; height:600px;'],
 div[style^='width: 728px; height: 90px;'],
 div[style^='height: 90px; width: 728px;'],
 div[style^='width: 176px; height: 90px;'],
+td[width='240'][height='60'],
+td[width='480'][height='60'],
 /*общие правила*/div[id^='bn_'],
 div[id^='banner'],
 object[id^='banner'],
@@ -276,6 +284,7 @@ div.promo-intruder,
 div.feed__item>a[href^="https://yabs.yandex."],
 div[id^='uniq'][class*='_js_inited'],
 div.feed__item._size_small>div:not(.doc),
+div[id^='yandex_rtb'],
 /*mail.ru*/div.layout__centercol__wrap>div>a.text-banner,
 div.block-adcntxt,
 div.torg_mail_ru__200x300,
@@ -309,72 +318,30 @@ div#tvcap>div.commercial-unit,
 /*youtube*/div#premium-yva,
 div#video-masthead,
 /*rutracker.cr*/div.bn-idx,
-embed[width='200'][height='300'],
-iframe[width='200'][height='300'],
 div#bn-bot-wrap,
-/*ixbt.com*/table.top_ad2,
-object[width='600'][height='90'],
-img[width='600'][height='90'],
-object[width='600'][height='300'],
-div.clickable_zone,
-div.clickable_zone_right,
-div.clickable_zone_left,
-/*OpenNET.ru*/a[href*='lanbilling.ru'],
-table#ibm_adv,
-img[width='242'][height='402'],
-img[width='279'][height='40'],
-/*linux.org.ru*/div#interpage,
-/*job.ru*/div[class^='showcaseNew'],
-/*fileplaneta.com*/span#ta8c,
-/*irr.ru*/div.wrBanerPlace,
-/*itmages.ru*/div#modal-noAds,
-/*div.modal-backdrop,conflict with bspb.ru*/
-/*ngs.ru*/div.rclheh,
-div.joagokx,
-div.tcitly,
-div.realty-informer-small,
-/*pravda.ru*/div[id^='div_sf_'],
-/*dota2.ru*/div.hadv1-block,
-div.vadv1-block,
-/*yarportal.ru*/td[width='480'][height='60'],
-td[width='240'][height='60'],
-object[width='240'][height='100'],
-object[width='480'][height='100'],
-div#ipbwrapper>center>table#table1[width="100%"],
-/*nowfilms.ru*/div#b_bl,
 /*nnm-club.me*/ins.adsbygoogle,
 div#mb_top_space,
 div#ewnjnlbs_div,
 div#pewnjnlbs_div,
-/*ph4.ru*/table.shad,
-div#snippetContainer
+/*ixbt.com*/table.top_ad2,
+div.clickable_zone,
+div.clickable_zone_right,
+div.clickable_zone_left
 {display:none !important}
-@-moz-document domain(sputnik.ru){
-div.b-cover__box>div.b-level
-{display:none !important}}
-@-moz-document domain(nnm.me){
-body>a:first-child[target="_blank"]
-{display:none !important}}
-@-moz-document domain(tfile.co){
-div#table_reduser>div:first-child
-{display:none !important}
-body{padding-top:0px !important;
-background:none !important;}}
-@-moz-document domain(unionpeer.org){
-div#body_container>noindex
-{display:none !important}}
-@-moz-document domain(free-torrents.org){
-noindex
-{display:none !important}}
-@-moz-document domain(fastpic.ru){
-div#brnd,
-div#left[style*='z-index: 2147483647'],
-div#top[style*='width: 728px; height: 200px'],
-div#right[style*='width: 310px; height: 470px']
-{display:none !important}}
-@-moz-document domain(habr.com){
-div#layout>div.inner>div.column-wrapper>div.sidebar_right>*>a
-{display:none !important}}
+@-moz-document domain(play.google.com){
+div[class^='doc-banner-']
+{display:block !important}}
+@-moz-document domain(go.mail.ru){
+[id^='adv-']
+{display:block !important}}
+@-moz-document domain(search.qip.ru){
+div.adv
+{display:block !important}}
+@-moz-document domain(youtube.com){
+div#teaser-replies,
+div.watch-branded-banner,
+div.player-branded-banner
+{display:block !important}}
 @-moz-document domain(joyreactor.cc){
 div#content
 {background-color:transparent !important}
@@ -383,77 +350,27 @@ div#content>div:not(#contentinner)
 {display:none !important}
 div[id^='ad-']
 {display:block !important}}
-@-moz-document domain(4pda.ru){
-img[width='240'][height='400']
-{display:block !important}}
 @-moz-document domain(forum.oszone.net){
 table.alt1 td.alt1[align="center"],
 table.alt1 td.alt2[align="center"]
 {display:none !important}}
-@-moz-document domain(new-rutor.org){
-body
-{padding:0 !important}}
-@-moz-document domain(free-codecs.com){
-div#bannerTop
-{display:block !important}}
-@-moz-document domain(youtube.com){
-div#teaser-replies,
-div.watch-branded-banner,
-div.player-branded-banner
-{display:block !important}}
 @-moz-document domain(rozetka.com.ua){
 div#head_banner_container
 {display:block !important}}
-@-moz-document domain(gamexp.ru){
-div.game_banner
-{display:block !important}}
-@-moz-document domain(rbcdaily.ru){
-div.b-brending-banner
-{display:block !important}}
-@-moz-document domain(rzd.ru){
-body.indx .banner
-{display:block !important}}
-@-moz-document domain(play.google.com){
-div[class^='doc-banner-']
-{display:block !important}}
-@-moz-document domain(mail.google.com){
-div.ads
-{display:block !important}}
-@-moz-document domain(go.mail.ru){
-[id^='adv-']
-{display:block !important}}
-@-moz-document domain(search.qip.ru){
-div.adv
-{display:block !important}}
-@-moz-document domain(megaline-films.kz){
-div.backbanner
-{display:block !important}}
 @-moz-document domain(oo.by){
 div.ad
-{display:block !important}}
-@-moz-document domain(mediafire.com){
-div.error_topbanner
-{display:block !important}}
-@-moz-document domain(lib.rus.ec){
-div.lb-pay__banner
-{display:block !important}}
-@-moz-document domain(19rus.info){
-div.fon-banner,
-div.fon-banner-raster
 {display:block !important}}
 @-moz-document domain(ixbt.com){
 img[src*='/banner/']
 {display:block !important}
 body{padding-top:0px !important;
 background:none !important;}}
+@-moz-document domain(overclockers.ru){
+div.top-an,
+div.mainlist-inline-an
+{display:none !important}}
 @-moz-document domain(apps.samsung.com){
 img[width='240'][height='400']
-{display:block !important}}
-@-moz-document domain(wildberries.ru){
-div.banners
-{display:block !important}}
-@-moz-document domain(forum.pac-rom.com){
-div.banner_ads
 {display:block !important}}
 @-moz-document domain(vse.kz){
 div#banner_wrapper,
@@ -469,34 +386,6 @@ div[class^='adsk-']
 @-moz-document domain(irr.ru){
 div[class^='advert']
 {display:block !important}}
-@-moz-document domain(tvzavr.ru){
-div.with-banner
-{display:block !important}}
-@-moz-document domain(ocz.com){
-div.banner
-{display:block !important}}
-@-moz-document domain(sandisk.com){
-div#banner
-{display:block !important}}
-@-moz-document domain(huawei-games.ru){
-div.reklama
-{display:block !important}}
-@-moz-document domain(3dmgame.com){
-div#banner
-{display:block !important}}
 @-moz-document domain(spbitschool.ru){
-div.banner-style11
-{display:block !important}}
-@-moz-document domain(sf-express.com){
-div#banner,div.banner
-{display:block !important}}
-@-moz-document domain(wordpress.org){
-div.plugin-head-with-banner,
-div.with-banner
-{display:block !important}}
-@-moz-document domain(overclockers.ru){
-div.top-an,
-div.mainlist-inline-an
-{display:none !important}
-div#yandex_ad_1
+div.forcefullwidth_wrapper_tp_banner
 {display:block !important}}
