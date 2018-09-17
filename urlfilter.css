@@ -315,7 +315,7 @@ div#tvcap>div.commercial-unit,
 div#video-masthead,
 /*rutracker.cr*/div.bn-idx,
 div#bn-bot-wrap,
-/*nnm-club.me*/ins.adsbygoogle,
+/*nnm-club.me*/div.adsbygoogle,
 div#mb_top_space,
 div#ewnjnlbs_div,
 div#pewnjnlbs_div,
@@ -387,4 +387,7 @@ div[class^='advert']
 {display:block !important}}
 @-moz-document domain(spbitschool.ru){
 div.forcefullwidth_wrapper_tp_banner
+{display:block !important}}
+@-moz-document domain(overclockers.ru){
+div#yandex_ad_1
 {display:block !important}}
