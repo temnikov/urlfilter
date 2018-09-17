@@ -327,6 +327,9 @@ div.clickable_zone_left
 @-moz-document domain(play.google.com){
 div[class^='doc-banner-']
 {display:block !important}}
+@-moz-document domain(mail.google.com){
+div.adn
+{display:block !important}}
 @-moz-document domain(go.mail.ru){
 [id^='adv-']
 {display:block !important}}
@@ -384,7 +387,4 @@ div[class^='advert']
 {display:block !important}}
 @-moz-document domain(spbitschool.ru){
 div.forcefullwidth_wrapper_tp_banner
-{display:block !important}}
-@-moz-document domain(mail.google.com){
-div.adn.ads
 {display:block !important}}
