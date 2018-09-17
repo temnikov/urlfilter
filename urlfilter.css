@@ -306,10 +306,6 @@ div.adWordsTop,
 div#adfox-billboard,
 /*google*/div#mtads,
 div#bottomads,
-div.nH>div.mq,
-div.nH>div.PS,
-div.nH>div.u5,
-div.nH>div.AT,
 div.block-informer-news,
 div#AdvertisingTopLine,
 div[class^='pgBan'],
@@ -388,4 +384,7 @@ div[class^='advert']
 {display:block !important}}
 @-moz-document domain(spbitschool.ru){
 div.forcefullwidth_wrapper_tp_banner
+{display:block !important}}
+@-moz-document domain(mail.google.com){
+div.adn.ads
 {display:block !important}}
