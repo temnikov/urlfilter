@@ -367,7 +367,9 @@ background:none !important;}}
 @-moz-document domain(overclockers.ru){
 div.top-an,
 div.mainlist-inline-an
-{display:none !important}}
+{display:none !important}
+div#yandex_ad_1
+{display:block !important}}
 @-moz-document domain(apps.samsung.com){
 img[width='240'][height='400']
 {display:block !important}}
@@ -387,7 +389,4 @@ div[class^='advert']
 {display:block !important}}
 @-moz-document domain(spbitschool.ru){
 div.forcefullwidth_wrapper_tp_banner
-{display:block !important}}
-@-moz-document domain(overclockers.ru){
-div#yandex_ad_1
 {display:block !important}}
