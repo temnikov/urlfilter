@@ -263,53 +263,6 @@ div.km_ref_adv_popup,
 /*casino*/div.casino,
 a[href^="https://www.joycasino.com/?partner="],
 a[href^="https://joycasino.com/?partner="],
-/*yandex*/div[class$='_type_highlighted'],
-div.b-page-layout__column-proxy div.g-gap-vertical[class*='_type_'],
-div.b-page-layout__column:last-of-type>div:not(.i-images-lists)>div>div:not(.b-parallel-search),
-div.b-yadirect,
-div.b-direct,
-div.b-advertizing-and-wizards>div>div[class$='__line'],
-div.b-noncontext-banner,
-li.yad-line,
-div.serp-adv,
-div.serp-adv__counter,
-div.serp-adv__title-text,
-div.serp-list div.serp-block:nth-of-type(7),
-div.b-tv-direct,
-div.yabrowser-promo,
-div.distr-popup_type_download,
-div.distro_shown_yes,
-div.dist-popup_product_browser,
-div.distr-popup_js_inited,
-div.direct_shown_yes,
-div.sticky_js_inited,
-div[id^='yandex_ad_'],
-div.promo-intruder,
-div.stripe_type_promo,
-div.feed__item>a[href^="https://yabs.yandex."],
-div[id^='uniq'][class*='_js_inited'],
-div.feed__item._size_small>div:not(.doc),
-div[id^='yandex_rtb'],
-/*mail.ru*/div.layout__centercol__wrap>div>a.text-banner,
-div.block-adcntxt,
-div.torg_mail_ru__200x300,
-div.header__branding,
-div.footer__branding,
-div.b-slot_banner,
-div#portal__banner,
-div.b-datalist__head__item_rb,
-div.b-rb.direct.direct_top,
-td.direct-spc+td.direct,
-li.menu__item_rb,
-div.informers.noindex,
-aside.sidebar-right.noindex,
-div.pc-bracing-cols,
-div.mailru-visibility-check,
-div.incut_inserted_yes,
-/*rambler.ru*/div.b-worm,
-div.mixednews__aside,
-div.adWordsTop,
-div#adfox-billboard,
 /*google*/div#mtads,
 div#bottomads,
 div.block-informer-news,
@@ -330,6 +283,94 @@ div.clickable_zone,
 div.clickable_zone_right,
 div.clickable_zone_left
 {display:none !important}
+@-moz-document
+domain("tv.yandex.by"),
+domain("tv.yandex.kz"),
+domain("tv.yandex.ru"),
+domain("tv.yandex.ua"){
+section.grid > * iframe,
+div.grid-chunk__adv-column,
+div[style^="min-height: 320px;"],
+div.mount>div>div,
+div.content__columns > * iframe,
+div.metrika-loader
+{display:none !important}}
+@-moz-document
+domain("music.yandex.by"),
+domain("music.yandex.kz"),
+domain("music.yandex.ru"),
+domain("music.yandex.ua"){
+div.d-overhead,
+div.branding
+{display:none !important}
+div.centerblock-wrapper
+{width:auto !important;}
+div.page-main__promotions
+{max-width:100% !important;}}
+@-moz-document
+domain("market.yandex.by"),
+domain("market.yandex.kz"),
+domain("market.yandex.ru"),
+domain("market.yandex.ua"){
+div.market-metrika,
+div[data-zone-name="Banner"]
+{display:none !important}}
+@-moz-document
+domain("news.yandex.by"),
+domain("news.yandex.kz"),
+domain("news.yandex.ru"),
+domain("news.yandex.ua"){
+.sticky,
+[role="main"] > * [style^="min-height: 320px;"]
+{display:none !important}}
+@-moz-document
+domain("yandex.by"),
+domain("yandex.kz"),
+domain("yandex.ru"),
+domain("yandex.ua"){
+.widgets.main > * div ~ div ~ div ~ div[class*=" "] > div[class*="_"]
+{background-image: none !important;}
+.widgets.main > * div ~ div ~ div ~ div[class*="__"] > div:not([class*=" "]):not([class*="_"]),
+div.popup__under,
+div.yabrowser-promo,
+div.media-service__header>a.media-promo,
+div.feed__item._size_small>div:not(.doc),
+/*pictures*/
+div.popup2,
+div.stripe_type_promo,
+div.cl-teaser.incut_banner,
+/*pogoda*/
+body>.content > * .content__main > * [style^="min-height: 370px;"],
+body>.content > * iframe,
+.content__bottom>.content__col>.content__row > :not(.content__elem),
+.content__bottom>.content__col > * [style^="min-height: 320px;"],
+.distr-popup,
+i.b-statcounter
+{display:none !important}}
+@-moz-document domain(mail.ru){
+div.layout__centercol__wrap>div>a.text-banner,
+div.block-adcntxt,
+div.torg_mail_ru__200x300,
+div.header__branding,
+div.footer__branding,
+div.b-slot_banner,
+div#portal__banner,
+div.b-datalist__head__item_rb,
+div.b-rb.direct.direct_top,
+td.direct-spc+td.direct,
+li.menu__item_rb,
+div.informers.noindex,
+aside.sidebar-right.noindex,
+div.pc-bracing-cols,
+div.mailru-visibility-check,
+div.incut_inserted_yes
+{display:none !important}}
+@-moz-document domain(rambler.ru){
+div.b-worm,
+div.mixednews__aside,
+div.adWordsTop,
+div#adfox-billboard
+{display:none !important}}
 @-moz-document domain(play.google.com){
 div[class^='doc-banner-']
 {display:block !important}}
