@@ -350,13 +350,6 @@ div#teaser-replies,
 div.watch-branded-banner,
 div.player-branded-banner
 {display:block !important}
-div#content
-{background-color:transparent !important}
-div#SwfStore_jr_0,
-div#content>div:not(#contentinner)
-{display:none !important}
-div[id^='ad-']
-{display:block !important}
 table.alt1 td.alt1[align="center"],
 table.alt1 td.alt2[align="center"]
 {display:none !important}
