@@ -281,53 +281,25 @@ div#pewnjnlbs_div,
 /*ixbt.com*/table.top_ad2,
 div.clickable_zone,
 div.clickable_zone_right,
-div.clickable_zone_left
-{display:none !important}
-@-moz-document
-domain("tv.yandex.by"),
-domain("tv.yandex.kz"),
-domain("tv.yandex.ru"),
-domain("tv.yandex.ua"){
+div.clickable_zone_left,
 section.grid > * iframe,
 div.grid-chunk__adv-column,
 div[style^="min-height: 320px;"],
 div.mount>div>div,
 div.content__columns > * iframe,
-div.metrika-loader
-{display:none !important}}
-@-moz-document
-domain("music.yandex.by"),
-domain("music.yandex.kz"),
-domain("music.yandex.ru"),
-domain("music.yandex.ua"){
+div.metrika-loader,
 div.d-overhead,
 div.branding
 {display:none !important}
 div.centerblock-wrapper
 {width:auto !important;}
 div.page-main__promotions
-{max-width:100% !important;}}
-@-moz-document
-domain("market.yandex.by"),
-domain("market.yandex.kz"),
-domain("market.yandex.ru"),
-domain("market.yandex.ua"){
+{max-width:100% !important;}
 div.market-metrika,
-div[data-zone-name="Banner"]
-{display:none !important}}
-@-moz-document
-domain("news.yandex.by"),
-domain("news.yandex.kz"),
-domain("news.yandex.ru"),
-domain("news.yandex.ua"){
+div[data-zone-name="Banner"],
 .sticky,
 [role="main"] > * [style^="min-height: 320px;"]
-{display:none !important}}
-@-moz-document
-domain("yandex.by"),
-domain("yandex.kz"),
-domain("yandex.ru"),
-domain("yandex.ua"){
+{display:none !important}
 .widgets.main > * div ~ div ~ div ~ div[class*=" "] > div[class*="_"]
 {background-image: none !important;}
 .widgets.main > * div ~ div ~ div ~ div[class*="__"] > div:not([class*=" "]):not([class*="_"]),
@@ -336,19 +308,15 @@ div.popup__under,
 div.yabrowser-promo,
 div.media-service__header>a.media-promo,
 div.feed__item._size_small>div:not(.doc),
-/*pictures*/
 div.popup2,
 div.stripe_type_promo,
 div.cl-teaser.incut_banner,
-/*pogoda*/
 body>.content > * .content__main > * [style^="min-height: 370px;"],
 body>.content > * iframe,
 .content__bottom>.content__col>.content__row > :not(.content__elem),
 .content__bottom>.content__col > * [style^="min-height: 320px;"],
 .distr-popup,
-i.b-statcounter
-{display:none !important}}
-@-moz-document domain(mail.ru){
+i.b-statcounter,
 div.layout__centercol__wrap>div>a.text-banner,
 div.block-adcntxt,
 div.torg_mail_ru__200x300,
@@ -364,77 +332,58 @@ div.informers.noindex,
 aside.sidebar-right.noindex,
 div.pc-bracing-cols,
 div.mailru-visibility-check,
-div.incut_inserted_yes
-{display:none !important}}
-@-moz-document domain(rambler.ru){
+div.incut_inserted_yes,
 div.b-worm,
 div.mixednews__aside,
 div.adWordsTop,
 div#adfox-billboard
-{display:none !important}}
-@-moz-document domain(play.google.com){
+{display:none !important}
 div[class^='doc-banner-']
-{display:block !important}}
-@-moz-document domain(mail.google.com){
+{display:block !important}
 div.adn
-{display:block !important}}
-@-moz-document domain(go.mail.ru){
+{display:block !important}
 [id^='adv-']
-{display:block !important}}
-@-moz-document domain(search.qip.ru){
+{display:block !important}
 div.adv
-{display:block !important}}
-@-moz-document domain(youtube.com){
+{display:block !important}
 div#teaser-replies,
 div.watch-branded-banner,
 div.player-branded-banner
-{display:block !important}}
-@-moz-document domain(joyreactor.cc){
+{display:block !important}
 div#content
 {background-color:transparent !important}
 div#SwfStore_jr_0,
 div#content>div:not(#contentinner)
 {display:none !important}
 div[id^='ad-']
-{display:block !important}}
-@-moz-document domain(forum.oszone.net){
+{display:block !important}
 table.alt1 td.alt1[align="center"],
 table.alt1 td.alt2[align="center"]
-{display:none !important}}
-@-moz-document domain(rozetka.com.ua){
+{display:none !important}
 div#head_banner_container
-{display:block !important}}
-@-moz-document domain(oo.by){
+{display:block !important}
 div.ad
-{display:block !important}}
-@-moz-document domain(ixbt.com){
+{display:block !important}
 img[src*='/banner/']
 {display:block !important}
 body{padding-top:0px !important;
-background:none !important;}}
-@-moz-document domain(overclockers.ru){
+background:none !important;}
 div.top-an,
 div.mainlist-inline-an
 {display:none !important}
 div#yandex_ad_1
-{display:block !important}}
-@-moz-document domain(apps.samsung.com){
+{display:block !important}
 img[width='240'][height='400']
-{display:block !important}}
-@-moz-document domain(vse.kz){
+{display:block !important}
 div#banner_wrapper,
 div#banner_highlight
-{display:block !important}}
-@-moz-document domain(autodesk.com){
+{display:block !important}
 div.adsk-textimage
-{display:block !important}}
-@-moz-document domain(autodesk.ru){
+{display:block !important}
 div[id^='adsk-'],
 div[class^='adsk-']
-{display:block !important}}
-@-moz-document domain(irr.ru){
+{display:block !important}
 div[class^='advert']
-{display:block !important}}
-@-moz-document domain(spbitschool.ru){
+{display:block !important}
 div.forcefullwidth_wrapper_tp_banner
-{display:block !important}}
+{display:block !important}
