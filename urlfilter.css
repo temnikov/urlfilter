@@ -319,6 +319,10 @@ div[data-zone-name="Banner"],
 .widgets.main > * div ~ div ~ div ~ div[class*=" "] > div[class*="_"]
 {background-image: none !important;}
 .widgets.main > * div ~ div ~ div ~ div[class*="__"] > div:not([class*=" "]):not([class*="_"]),
+.widgets.main > * div ~ div ~ div ~ div[class*="__"] > div[class^=" "],
+.widgets.main > * div[class*="__"]:nth-of-type(6),
+.widgets.main > * div[class*="__"]:nth-of-type(7),
+.widgets.main > * div[class*="__"]:nth-of-type(8),
 div.dist-popup,
 div.popup__under,
 div.yabrowser-promo,
