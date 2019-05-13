@@ -203,9 +203,6 @@ div#adslot2,
 div#adslot3,
 div[id^='mainads'],
 iframe[id^='ads_'],
-/*div[id^='advert'],*/
-/*irr.ru не надо div id=advertCreate */
-/*.advert,#advertisingLink,#Advertisement,*/
 div[id$='advert'],
 div[class^='advert-'],
 section[id*='-advert-'],
