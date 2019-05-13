@@ -342,11 +342,9 @@ div.popup__under,
 div.yabrowser-promo,
 div.adv_pos_popup,
 i.b-statcounter,
-
 .sticky,
 div.rubber__col_right,
-[class$="_visible"]
-{display:none !important}
+[class$="_visible"],
 section.grid > * iframe,
 div.grid-chunk__adv-column,
 div.adv-manager__wrapper,
